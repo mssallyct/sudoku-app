@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" width="192" height="192">
+  <rect width="192" height="192" rx="32" fill="#f5f0e8"/>
+  <rect x="8" y="8" width="176" height="176" rx="24" fill="none" stroke="#1a1a1a" stroke-width="3"/>
+  <!-- 9x9 grid -->
+  <g stroke="#1a1a1a" stroke-width="1.5" opacity="0.15">
+    <line x1="64" y1="24" x2="64" y2="168"/>
+    <line x1="128" y1="24" x2="128" y2="168"/>
+    <line x1="24" y1="64" x2="168" y2="64"/>
+    <line x1="24" y1="128" x2="168" y2="128"/>
+  </g>
+  <!-- 3x3 bold lines -->
+  <g stroke="#1a1a1a" stroke-width="3">
+    <line x1="24" y1="64" x2="168" y2="64"/>
+    <line x1="24" y1="128" x2="168" y2="128"/>
+    <line x1="64" y1="24" x2="64" y2="168"/>
+    <line x1="128" y1="24" x2="128" y2="168"/>
+  </g>
+  <!-- Number 5 in brush style -->
+  <text x="96" y="108" font-family="'Noto Serif JP', serif" font-size="64" font-weight="700"
+        fill="#c73e3a" text-anchor="middle" dominant-baseline="central">五</text>
+  <!-- Hanko stamp -->
+  <rect x="130" y="136" width="36" height="36" rx="3" fill="none" stroke="#c73e3a" stroke-width="2.5" opacity="0.7"/>
+  <text x="148" y="154" font-family="serif" font-size="10" fill="#c73e3a"
+        text-anchor="middle" dominant-baseline="central" opacity="0.7">完了</text>
+</svg>

@@ -2,7 +2,14 @@
 <html lang="zh-HK">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="數獨日和">
+<meta name="application-name" content="數獨日和">
+<meta name="theme-color" content="#1a1a1a">
+<link rel="manifest" href="/sudoku-app/manifest.json">
+<link rel="apple-touch-icon" href="/sudoku-app/icons/icon-192.png">
 <title>數獨日和</title>
 <style>
   /* 數獨日和 — 和紙 x 墨色 x 清晰格線 */
@@ -929,6 +936,13 @@ adBanner.innerHTML = `
 `;
 (adsbygoogle = window.adsbygoogle || []).push({});
 */
+
+// Register Service Worker for PWA
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('/sudoku-app/sw.js').catch(() => {});
+  });
+}
 
 // Start
 initGame('easy');
