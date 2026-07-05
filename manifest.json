@@ -3,6 +3,7 @@
   "short_name": "數獨日和",
   "description": "日系和風風格數獨遊戲 — 一筆入魂",
   "start_url": "/sudoku-app/",
+  "id": "/sudoku-app/",
   "display": "standalone",
   "background_color": "#f5f0e8",
   "theme_color": "#1a1a1a",
@@ -23,6 +24,14 @@
       "purpose": "any maskable"
     }
   ],
-  "screenshots": [],
+  "screenshots": [
+    {
+      "src": "/sudoku-app/screenshots/screenshot-1.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "遊戲主畫面"
+    }
+  ],
   "shortcuts": []
 }
