@@ -9,6 +9,3 @@
 - ✅ 即時檢查
 - ⌨️ 鍵盤快捷鍵支援
 - ⏱️ 計時器
-
-## 玩
-直接開 https://mssallyct.github.io/sudoku-app
